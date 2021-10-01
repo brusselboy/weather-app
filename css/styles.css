@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #443874;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #8274A6;
+    color: #eae9ee;
+    padding: 2rem;
+    min-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px 7px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    background-color: #4f4083;
+    border: none;
+    padding: .5rem .7rem;
+    font-family: inherit;
+    color: white;
+    border-radius: 7px;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0 0 25px 2px rgba(0, 0, 0, 0.3);
+    transition: .3s;
+}
+
+.search:hover {
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.4);
+}
+
+input::placeholder {
+    color: white;
+    font-family: inherit;
+}
+
+hr {
+    margin-top: 2em;
+    margin-bottom: 0;
+    width: 400px;
+}
+
+.hr__medium {
+    margin-top: 2em;
+    margin-bottom: 0;
+    width: 250px;
+    opacity: .7;
+}
+
+.hr__light {
+    margin-top: 0;
+    width: 100px;
+    opacity: .5;
+}
+
+.weather h2 {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.weather h1 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+
+.detail__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
